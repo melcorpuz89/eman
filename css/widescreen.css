@@ -1,0 +1,11 @@
+  .icons{
+    display: flex;
+    position: relative;
+    left: 250px;
+}
+p{
+    text-align: center;
+    padding: 0 40px;
+}
+
+  

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/widescreen.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+  <!--navbar-->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="icon"><i class="fab fa-battle-net"></i></span>
+        <span class="dl">MA</span>Corpuz
+     </h1>
+        <div class="icons">
+          <a href="https://www.facebook.com/mel.corpuz.9/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://login.yahoo.com/"><i class="fab fa-yahoo"></i></a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+    <!--end of navbar-->
+
+    <!--Welcome-->
+<section id="welcome">
+    <div class="a-container">
+        <h1 class="name">Hello, I am Mel Angelo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt perspiciatis labore in quibusdam sit inventore ipsum nam distinctio reprehenderit.</p>
+        <a href="https://www.detourista.com" type="button" class="btn">click here</a>
+    </div>
+</section>
+
+<!--end of Welcome-->
+
+<!--About Page-->
+<section id="about">
+  <h2 class="am">About Me</h2>
+  <div class="main">
+    <img class="image"src="/image/wed_MM.jpg" alt="">
+    <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequatur, quos qui voluptas doloremque officiis praesentium aliquid quod nobis minus tempora aliquam? Mollitia animi nihil recusandae illo neque est perspiciatis.</p>
+  </div>
+  
+</section>
+
+
+<!--Contact-->
+<section id="contact">
+  <h2 class="text-center"><span class="color">Contacts</span> and <span class="color">MAP</span></h2>
+  <div class="container">
+    <div class="container-2">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <span class="bold">Location:</span> Sudipen L.U.
+        </li>
+        <li class="list-group-item">
+          <span class="bold">Phone #:</span> 09565142203
+        </li>
+        <li class="list-group-item">
+          <span class="bold">Email Address:</span> mel.corpuz@ymail.com
+        </li>
+        <li class="list-group-item">
+          <span class="bold">Facebook Account:</span> https://www.facebook.com/mel.corpuz.9/
+      </ul>
+    </div>
+      <div id="map"></div>
+  </div>
+</section>
+<!--end of Contact-->
+
+<!--footer-->
+
+<footer>
+  <div class="footer">
+    <p class="ls">Copyright &copy; 2021, <span class="icon"><i class="fab fa-battle-net"></i></span>
+      <span class="dl">MA</span>Corpuz</p>
+  </div>
+</footer>
+
+<script 
+        src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+></script>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoibWVsY29ycHV6IiwiYSI6ImNrdXl0eW0wYjc2aWQycG8zcHl3dnU4bXQifQ.zHZmVZyGWHjEWa9kxXgFXw';
+   var map = new mapboxgl.Map({
+   container: 'map',
+   style: 'mapbox://styles/melcorpuz/ckuyu73gu07dk14ptxvye4ga1',
+   center: [120.46, 16.9], 
+   zoom: 12.5
+
+  });
+  </script>
+</body>
+</html>

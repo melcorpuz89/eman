@@ -1,0 +1,99 @@
+/* Smartphones */
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.icons{
+    display: flex;
+    position: relative;
+    left: 250px;
+}
+
+p{
+    text-align: center;
+    padding: 0 20px;
+}
+#about .main .p-2{
+    padding: 50px;
+}
+#contact .container .container-2 ul li{
+    height: 75px;
+}
+footer .footer .ls{
+   padding: 20px;
+}
+
+  /*  .logo{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .icons a{
+        font-size: 10px;
+        margin: 0 10px;
+    }
+    #navbar ul li a {
+        font-size: 10px;  
+        padding: 0; 
+    }
+    #welcome{
+        height: 40vh;
+        color: #fff;
+    }   
+    #welcome .a-container{
+        padding-top: 100px;
+        position: ;
+        
+        background: rgba(0, 0, 0, 0.4)
+        
+    }
+    .name{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    #welcome .a-container{
+        padding-bottom:  500px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.4);
+        
+    }
+    .btn{
+        font-size: 12px;
+        padding: 5px;
+    }
+    #about .main{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    #about .main .image{
+        height: 50vh;
+        width: 90%;
+    }
+    #about .main .p-2{
+        margin-bottom: 
+    }
+    #contact .container{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #contact .container .container-2 ul li{
+        font-size: 15px
+    }
+    #contact .container #map{
+        padding-top: 50px;
+        width: 100%;
+    }
+    .footer{
+        padding-bottom: 20px;
+    }*/
